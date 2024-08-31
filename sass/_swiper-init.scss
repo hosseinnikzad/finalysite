@@ -1,0 +1,136 @@
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
+    position: absolute;
+    /*  top: var(--swiper-navigation-top-offset, 50%);
+  width: calc(var(--swiper-navigation-size) / 44* 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px -(var(--swiper-navigation-size) / 2));*/
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #595959;
+    background: white;
+    border-radius: 90rem;
+    padding: 1rem 1.4rem;
+    box-shadow: 2px 4px 6px 0px #00000038;
+}
+.swiper-wrapper {
+    width: 100%;
+    height: 100%;
+    cursor: grab;
+}
+.swiper-1 .swiper-slide {
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-1 .swiper-slide img{
+    width: 50%;
+    height: 50%;
+    display: block;
+    object-fit: cover;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    transition: box-shadow .5s ease;
+
+}
+
+
+.swiper-1 .swiper-button-next,
+.swiper-1 .swiper-button-prev {
+    top: 12.5rem;
+}
+
+
+
+.swiper-2 .swiper-slide {
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-2 .swiper-slide img{
+    width: 50%;
+    height: 50%;
+    display: block;
+    object-fit: cover;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    transition: box-shadow .5s ease;
+
+}
+
+
+.swiper-2 .swiper-button-next,
+.swiper-2 .swiper-button-prev {
+    top: 12.5rem;
+}
+
+
+
+
+.swiper .swiper-button-next:after,
+.swiper .swiper-button-prev:after {
+    font-size: 1rem;
+}
+
+
+
+
+.swiper .swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: white;
+}
+
+
+
+.mySwiper .swiper-button-next.swiper-button-disabled,
+.mySwiper .swiper-button-prev.swiper-button-disabled,
+.instaswiper .swiper-button-next.swiper-button-disabled,
+.instaswiper .swiper-button-prev.swiper-button-disabled,
+.shegeftswiper .swiper-button-next.swiper-button-disabled,
+.shegeftswiper .swiper-button-prev.swiper-button-disabled {
+    display: none !important;
+}
+
+
+.baseswiper .swiper-button-next,
+.baseswiper .swiper-button-prev,
+.baseswiper .swiper-pagination 
+{
+    display: none;
+}
+
+
+@media (min-width:768px) {
+    .baseswiper .swiper-button-next,
+    .baseswiper .swiper-button-prev {
+        top: auto;
+        bottom: 2rem;
+        display: flex;
+    }
+    .baseswiper .swiper-button-next {
+        left: auto;
+        right: 5rem;
+    }
+    .baseswiper .swiper-button-prev {
+        left: auto;
+        right: 2rem;
+    }
+    .baseswiper .swiper-pagination {
+        display: block;
+    }
+}

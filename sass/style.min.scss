@@ -1,0 +1,1100 @@
+@use "layout";
+@use "header";
+@use "swiper-init";
+
+
+main {
+    .section2 {
+        ul.parent {
+            list-style: none;
+
+            li {
+                a {
+                    img {
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .text-line {
+        position: relative;
+
+        &>p {
+            font-size: 0.7rem;
+            font-weight: bold;
+        }
+
+        &>p::before {
+            content: "";
+            width: 30%;
+            height: 1px;
+            background-color: #000;
+            position: absolute;
+            top: 50%;
+            left: 0;
+        }
+
+        &>p::after {
+            content: "";
+            width: 30%;
+            height: 1px;
+            background-color: #000;
+            position: absolute;
+            top: 50%;
+            right: 0;
+        }
+    }
+
+    // .text2 {
+    //     position: relative;
+
+    //     p {
+    //         font-size: 0.7rem;
+    //         font-weight: bold;
+    //     }
+
+    //     p::before {
+    //         content: "";
+    //         width: 5rem;
+    //         height: 1px;
+    //         background-color: #000;
+    //         position: absolute;
+    //         top: 11px;
+    //         left: 33px;
+    //     }
+
+    //     p::after {
+    //         content: "";
+    //         width: 5rem;
+    //         height: 1px;
+    //         background-color: #000;
+    //         position: absolute;
+    //         top: 11px;
+    //         right: 33px;
+    //     }
+    // }
+
+    // .text3 {
+    //     position: relative;
+
+    //     p {
+    //         font-size: 0.7rem;
+    //         font-weight: bold;
+    //     }
+
+    //     p::before {
+    //         content: "";
+    //         width: 6rem;
+    //         height: 1px;
+    //         background-color: #000;
+    //         position: absolute;
+    //         top: 11px;
+    //         left: 15px;
+    //     }
+
+    //     p::after {
+    //         content: "";
+    //         width: 6rem;
+    //         height: 1px;
+    //         background-color: #000;
+    //         position: absolute;
+    //         top: 11px;
+    //         right: 15px;
+    //     }
+    // }
+
+    // .text4 {
+    //     position: relative;
+
+    //     p {
+    //         font-size: 0.7rem;
+    //         font-weight: bold;
+    //     }
+
+    //     p::before {
+    //         content: "";
+    //         width: 6rem;
+    //         height: 1px;
+    //         background-color: #000;
+    //         position: absolute;
+    //         top: 11px;
+    //         left: 15px;
+    //     }
+
+    //     p::after {
+    //         content: "";
+    //         width: 6rem;
+    //         height: 1px;
+    //         background-color: #000;
+    //         position: absolute;
+    //         top: 11px;
+    //         right: 15px;
+    //     }
+    // }
+
+    // .text5 {
+    //     position: relative;
+
+    //     p {
+    //         font-size: 0.7rem;
+    //         font-weight: bold;
+    //     }
+
+    //     p::before {
+    //         content: "";
+    //         width: 5rem;
+    //         height: 1px;
+    //         background-color: #000;
+    //         position: absolute;
+    //         top: 11px;
+    //         left: 15px;
+    //     }
+
+    //     p::after {
+    //         content: "";
+    //         width: 5rem;
+    //         height: 1px;
+    //         background-color: #000;
+    //         position: absolute;
+    //         top: 11px;
+    //         right: 15px;
+    //     }
+    // }
+
+    // .text6 {
+    //     position: relative;
+
+    //     p {
+    //         font-size: 0.7rem;
+    //         font-weight: bold;
+    //     }
+
+    //     p::before {
+    //         content: "";
+    //         width: 4rem;
+    //         height: 1px;
+    //         background-color: #000;
+    //         position: absolute;
+    //         top: 11px;
+    //         left: 15px;
+    //     }
+
+    //     p::after {
+    //         content: "";
+    //         width: 4rem;
+    //         height: 1px;
+    //         background-color: #000;
+    //         position: absolute;
+    //         top: 11px;
+    //         right: 15px;
+    //     }
+    // }
+
+    .section3 {
+        .submit {
+            position: relative;
+            .img {
+                background-image: url("../images/col3-2.webp");
+                background-size: cover;
+                border-radius: 30px;
+                height: 13rem;
+                overflow: hidden;
+                .text {
+                    position: absolute;
+                    top: 36px;
+                    left: 87px;
+
+                    h3 {
+                        color: #ffd975;
+                    }
+
+                    p {
+                        color: #ffd975;
+                    }
+
+                    a.btn {
+                        text-decoration: none;
+                        text-align: center;
+                        font-weight: 800;
+                        color: #000000;
+                        background-color: #FFC62F;
+                        border-width: 2px;
+                        border-radius: 8px;
+                        border: 2px solid white;
+                    }
+                }
+            }
+
+            .img:hover {
+                cursor: pointer;
+                transform: scale(1.05);
+                transition: 1s;
+            }
+        }
+
+        .submit2 {
+            position: relative;
+
+            .img {
+                background-image: url("../images/col6.webp");
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 30px;
+                height: 13rem;
+
+                .text {
+                    position: absolute;
+                    top: 36px;
+                    left: 86px;
+
+                    h3 {
+                        color: #ffd975;
+                    }
+
+                    p {
+                        color: #ffd975;
+                    }
+
+                    a.btn {
+                        text-decoration: none;
+                        text-align: center;
+                        font-weight: 800;
+                        color: #000000;
+                        background-color: #FFC62F;
+                        border-width: 2px;
+                        border-radius: 8px;
+                        border: 2px solid white;
+                    }
+                }
+            }
+
+            .img:hover {
+                cursor: pointer;
+                transform: scale(1.05);
+                transition: 1s;
+            }
+        }
+    }
+
+    .section4 {
+        .submit {
+            .text {
+                background-color: transparent;
+                background-image: linear-gradient(180deg, #d4b45f 0%, #d9c388 100%);
+                padding: 1rem;
+                text-align: center;
+                border-radius: 20px;
+                box-shadow: 0px 0px 20px #00000036;
+
+                p {
+                    font-size: 13px;
+                    font-weight: 600;
+                    letter-spacing: 0px;
+                }
+
+                a.btn {
+                    fill: #000000;
+                    color: #000000;
+                    background-color: #FFFEF4;
+                    border-radius: 12px 12px 12px 12px;
+                }
+
+                a.btn:hover {
+                    color: white;
+                    background-color: #d4b45f;
+                }
+            }
+        }
+    }
+    section.shegeft{
+        --background-overlay: '';
+        background-color: #FFFFFF8A;
+        background-image: url(https://www.javaherian-gallery.com/wp-content/uploads/2020/07/backdrop-copy-768x768.webp);
+        position: relative;
+        
+        .swiper-shegeft{
+            .card{
+                overflow: hidden;
+                .card-header{
+                    border: none;
+                    img{
+                        transition: 0.5s;
+                    }
+                }
+                .card-body{
+                    border: none;
+                    transition: 0.5s;
+                    padding: 0;
+                    background-color: white;
+                    p{
+                        text-decoration: none;
+                        margin: 0.5rem;
+                        color: black;
+                    }
+                }
+                .card-footer{
+                    border: none;
+                    transition: 0.5s;
+                    padding: 0;
+                    background-color: white;
+                    .submit{
+                        p{
+                            text-decoration: line-through;
+                            color: black;
+                        }
+                        
+                        a{
+                            span{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }  
+        }
+        .swiper-shegeft:hover{
+            .card{
+                overflow: hidden;
+                .card-header{
+                    
+                    img{
+                        scale: 1.1;
+                        transition: 0.5s;
+                    }
+                }
+                .card-body{
+                    transform: translateY(-2.5rem);
+                    transition: 0.5s;
+                    z-index: 10;
+                }
+                .card-footer{
+                    transform: translateY(-2.5rem);
+                    transition: 0.5s;
+                    z-index: 10;
+                    color: black;
+                    .submit{
+                        p{
+                            text-decoration: line-through;
+                        }
+                        .btn{
+                            a{
+                                span{
+                                    display: block;
+                                    padding: 0.05rem;
+                                    svg{
+                                        color: black;
+                                        padding: 0.5rem;
+                                        background-color: #d4b45f;
+                                        border-radius: 10px;
+                                        width: 2rem;
+                                        height: 2rem;
+                                    }
+                                }
+                            }   
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section7 {
+        .submit {
+            .card {
+                border: none;
+                box-shadow: 0px 1px 15px 0px #00000057;
+                border-radius: 10px;
+
+                .card-header {
+                    padding: 0;
+
+                    img {
+                        border-radius: 10px 10px 0 0;
+                    }
+                }
+
+                .card-body {
+                    padding: 0;
+
+                    .text {
+                        a {
+                            color: black;
+                            text-decoration: none;
+                            font-size: 1rem;
+                            font-weight: 500;
+                        }
+
+                        a.nth {
+                            color: #FFC120;
+                            text-decoration: none;
+                            font-size: 1rem;
+                            font-weight: 500;
+                        }
+                    }
+
+
+                }
+
+                .card-footer {
+                    padding: 0.5rem 1rem;
+
+                    span {
+                        line-height: 1.3em;
+                        font-size: 12px;
+                        margin-bottom: 13px;
+                        color: #adadad;
+                    }
+                }
+            }
+        }
+
+        .btn {
+            a {
+                fill: #5F5D5D;
+                color: #5F5D5D;
+                background-color: #ffd975;
+                border-radius: 30px 30px 30px 30px;
+                padding: 0.5rem 1rem;
+                text-decoration: none;
+
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #d4b45f;
+    background-image: url(https://www.javaherian-gallery.com/wp-content/uploads/2020/07/backdrop-copy-768x432.webp);
+    background-position: top center;
+
+    ul {
+        list-style: none;
+
+        li {
+            a {
+                color: #000000;
+                fill: #000000;
+                padding-left: 6px;
+                padding-right: 6px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                text-decoration: none;
+                font-size: 1rem;
+            }
+
+            a:hover {
+                color: white;
+            }
+        }
+    }
+
+    .submit {
+        .text {
+            position: relative;
+
+            h2 {
+                font-size: 0.9rem;
+            }
+
+            h2::after {
+                width: 100%;
+                height: 2px;
+                background-color: white;
+                content: "";
+                position: absolute;
+                top: 23px;
+                right: 0;
+
+            }
+
+            .text-right {
+                text-align: right;
+
+                a {
+                    font-size: 0.9rem;
+                    color: black;
+                    text-decoration: none;
+                    padding: 0.5rem;
+                    transition: 0.2s;
+                }
+
+                a:hover {
+                    color: white;
+                    transition: 0.2s;
+                }
+            }
+        }
+
+    }
+
+    .submit3 {
+        .icon {
+
+            a {
+                position: relative;
+                color: #ffd975;
+                display: inline-block;
+                background-color: white;
+                border: 1px solid #FFC120;
+                border-radius: 30px;
+                padding: 0.7rem 1rem;
+                margin: 0.3rem;
+                transition: 0.3s;
+                i {
+                    font-size: 1rem;
+                }
+
+                svg {
+                    color: #ffd975;
+                    fill: #FFC62F;
+                }
+
+            }
+            a:hover{
+                background-color: black;
+                transition: 0.3s;
+            }
+            a.img{
+                position: relative;
+                color: #ffd975;
+                display: inline-block;
+                background-color: white;
+                border: 1px solid #FFC120;
+                border-radius: 30px;
+                padding: 1.5rem;
+                margin: 0.3rem;
+                transition: 0.3s;
+                img {
+                    width: 21px;
+                    height: 24px;
+                    position: absolute;
+                    top: 11px;
+                    left: 13px;
+                }
+            }
+            a.img:hover{
+                background-color: black;
+                transition: 0.3s;
+            }
+        }
+
+        .img {
+            .submit {
+                img {
+                    height: 9rem;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width : 768px) {
+    main {
+        section.section1 {
+            .swiper-init {
+                .swiper {
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .swiper-slide {
+                    text-align: center;
+                    font-size: 18px;
+                    background: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .swiper-slide img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        .section2 {
+            ul.parent {
+                list-style: none;
+
+                li {
+                    a {
+                        img {
+                            max-width: 100%;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        .text1 {
+            position: relative;
+
+            p::before {
+                content: "";
+                width: 28rem;
+                height: 1px;
+                background-color: #000;
+                position: absolute;
+                top: 12px;
+                right: 189px;
+            }
+
+            p::after {
+                content: "";
+                width: 28rem;
+                height: 1px;
+                background-color: black;
+                position: absolute;
+                top: 12px;
+                right: 52rem;
+            }
+        }
+
+        .text2 {
+            position: relative;
+
+            p::before {
+                content: "";
+                width: 33rem;
+                height: 1px;
+                background-color: #000;
+                position: absolute;
+                top: 10px;
+                right: 158px;
+            }
+
+            p::after {
+                content: "";
+                width: 33rem;
+                height: 1px;
+                background-color: black;
+                position: absolute;
+                top: 10px;
+                right: 49rem;
+            }
+        }
+
+        .text3 {
+            position: relative;
+
+            p::before {
+                content: "";
+                width: 33rem;
+                height: 1px;
+                background-color: #000;
+                position: absolute;
+                top: 10px;
+                right: 155px;
+            }
+
+            p::after {
+                content: "";
+                width: 33rem;
+                height: 1px;
+                background-color: black;
+                position: absolute;
+                top: 10px;
+                right: 49rem;
+            }
+        }
+
+        .text4 {
+            position: relative;
+
+            p::before {
+                content: "";
+                width: 33rem;
+                height: 1px;
+                background-color: #000;
+                position: absolute;
+                top: 10px;
+                right: 160px;
+            }
+
+            p::after {
+                content: "";
+                width: 33rem;
+                height: 1px;
+                background-color: black;
+                position: absolute;
+                top: 10px;
+                right: 49rem;
+            }
+        }
+
+        .text5 {
+            position: relative;
+
+            p::before {
+                content: "";
+                width: 33rem;
+                height: 1px;
+                background-color: #000;
+                position: absolute;
+                top: 14px;
+                right: 110px;
+            }
+
+            p::after {
+                content: "";
+                width: 33rem;
+                height: 1px;
+                background-color: black;
+                position: absolute;
+                top: 12px;
+                right: 52rem;
+            }
+        }
+
+        .text6 {
+            position: relative;
+
+            p::before {
+                content: "";
+                width: 33rem;
+                height: 1px;
+                background-color: #000;
+                position: absolute;
+                top: 14px;
+                right: 110px;
+            }
+
+            p::after {
+                content: "";
+                width: 33rem;
+                height: 1px;
+                background-color: black;
+                position: absolute;
+                top: 12px;
+                right: 52rem;
+            }
+        }
+
+        .section3 {
+            .submit {
+               
+
+                .img {
+                    position: relative;
+                    background-image: url("../images/col3-2.webp");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    border-radius: 30px;
+                    height: 13rem;
+
+                    .text {
+                        position: absolute;
+                        top: 36px;
+                        left: 60px;
+
+                        h3 {
+                            color: #ffd975;
+                        }
+
+                        p {
+                            color: #ffd975;
+                        }
+
+                        a.btn {
+                            text-decoration: none;
+                            text-align: center;
+                            font-weight: 800;
+                            color: #000000;
+                            background-color: #FFC62F;
+                            border-width: 2px;
+                            border-radius: 8px;
+                            border: 2px solid white;
+                        }
+                    }
+                }
+
+                .img:hover {
+                    cursor: pointer;
+                    transform: scale(1.05);
+                    transition: 1s;
+                }
+            }
+
+            .submit2 {
+               
+
+                .img {
+                    position: relative;
+                    background-image: url("../images/col6.webp");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    border-radius: 30px;
+                    height: 13rem;
+
+                    .text {
+                        position: absolute;
+                        top: 36px;
+                        left: 211px;
+
+                        h3 {
+                            color: #ffd975;
+                        }
+
+                        p {
+                            color: #ffd975;
+                        }
+
+                        a.btn {
+                            text-decoration: none;
+                            text-align: center;
+                            font-weight: 800;
+                            color: #000000;
+                            background-color: #FFC62F;
+                            border-width: 2px;
+                            border-radius: 8px;
+                            border: 2px solid white;
+                        }
+                    }
+                }
+
+                .img:hover {
+                    cursor: pointer;
+                    transform: scale(1.05);
+                    transition: 1s;
+                }
+            }
+        }
+
+        .section4 {
+            .submit {
+                .text {
+                    background-color: transparent;
+                    background-image: linear-gradient(180deg, #d4b45f 0%, #d9c388 100%);
+                    padding: 1rem;
+                    text-align: center;
+                    border-radius: 20px;
+                    box-shadow: 0px 0px 20px #00000036;
+
+                    p {
+                        font-size: 13px;
+                        font-weight: 600;
+                        letter-spacing: 0px;
+                    }
+
+                    a.btn {
+                        fill: #000000;
+                        color: #000000;
+                        background-color: #FFFEF4;
+                        border-radius: 12px 12px 12px 12px;
+                    }
+
+                    a.btn:hover {
+                        color: white;
+                        background-color: #d4b45f;
+                    }
+                }
+            }
+        }
+
+        .section7 {
+            .submit {
+                .card {
+                    border: none;
+                    box-shadow: 0px 1px 15px 0px #00000057;
+                    border-radius: 10px;
+
+                    .card-header {
+                        padding: 0;
+
+                        img {
+                            border-radius: 10px 10px 0 0;
+                        }
+                    }
+
+                    .card-body {
+                        padding: 0;
+
+                        .text {
+                            a {
+                                color: black;
+                                text-decoration: none;
+                                font-size: 1rem;
+                                font-weight: 500;
+                            }
+
+                            a.nth {
+                                color: #FFC120;
+                                text-decoration: none;
+                                font-size: 1rem;
+                                font-weight: 500;
+                            }
+                        }
+
+
+                    }
+
+                    .card-footer {
+                        padding: 0.5rem 1rem;
+
+                        span {
+                            line-height: 1.3em;
+                            font-size: 12px;
+                            margin-bottom: 13px;
+                            color: #adadad;
+                        }
+                    }
+                }
+            }
+
+            .btn {
+                a {
+                    fill: #5F5D5D;
+                    color: #5F5D5D;
+                    background-color: #ffd975;
+                    border-radius: 30px 30px 30px 30px;
+                    padding: 0.5rem 1rem;
+                    text-decoration: none;
+
+                }
+            }
+        }
+    }
+
+    footer {
+        background-color: #d4b45f;
+        background-image: url(https://www.javaherian-gallery.com/wp-content/uploads/2020/07/backdrop-copy-768x432.webp);
+        background-position: top center;
+        border-radius: 10px 10px 0 0;
+
+        ul {
+            list-style: none;
+
+            li {
+                a {
+                    color: #000000;
+                    fill: #000000;
+                    padding-left: 6px;
+                    padding-right: 6px;
+                    padding-top: 16px;
+                    padding-bottom: 0px;
+                    text-decoration: none;
+                    font-size: 1rem;
+                    display: inline-block;
+                }
+
+                a:hover {
+                    color: white;
+                }
+            }
+        }
+
+        .submit {
+            .text {
+                position: relative;
+
+                h2 {
+                    font-size: 0.9rem;
+                }
+
+                h2::after {
+                    width: 100%;
+                    height: 2px;
+                    background-color: white;
+                    content: "";
+                    position: absolute;
+                    top: 23px;
+                    right: 0;
+
+                }
+
+                .text-right {
+                    text-align: right;
+
+                    a {
+                        font-size: 0.9rem;
+                        color: black;
+                        text-decoration: none;
+                        padding: 0.5rem;
+                        transition: 0.2s;
+                    }
+
+                    a:hover {
+                        color: white;
+                        transition: 0.2s;
+                    }
+                }
+            }
+
+        }
+
+        .submit3 {
+            .icon {
+                position: relative;
+
+                a {
+                    color: #ffd975;
+                    display: inline-block;
+
+                    span {
+                        background-color: white;
+                        border: 1px solid #FFC120;
+                        border-radius: 30px;
+                        padding: 0.8rem 1rem;
+                        margin: 0.3rem;
+
+                        img {
+                            width: 25px;
+                            height: 25px;
+                        }
+
+                        i {
+                            font-size: 1rem;
+                        }
+
+                        svg {
+                            color: #ffd975;
+                            fill: #FFC62F;
+                        }
+                    }
+                }
+            }
+
+            .img {
+                .submit {
+                    img {
+                        height: 9rem;
+                    }
+                }
+            }
+        }
+    }
+}

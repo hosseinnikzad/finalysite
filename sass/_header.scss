@@ -1,0 +1,1002 @@
+.bg-talaei {
+    background-color: #825f00;
+}
+
+.bg-talaei2 {
+    background-color: #D4B45F;
+}
+.z-100{
+    z-index: 100;
+}
+
+
+header {
+    background-image: url("../images/backDrop_javaherian-1-768x432.webp");
+    background-color: #FCF1D5;
+    opacity: 0.76;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0px -6px 20px 0px #626262cd;
+
+
+    }
+    .main-header{
+        background-image: none;
+        background-color: transparent;
+        box-shadow: none;
+        ul {
+            width: max-content;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+    
+        a {
+            text-decoration: none;
+            display: inline;
+        }
+
+        ul.parent1 {
+            z-index: 10;
+            padding: 1rem;
+    
+            li.first-child{
+                a {
+                    svg {
+                        fill: #825f00;
+                        width: 3rem;
+                        height: 3rem;
+                        padding: 0.5rem;
+                    }
+                }
+            }
+    
+            li:nth-child(2) {
+                ul.parent2 {
+                    li {
+                        a {
+                            padding: 0.5rem;
+                            color: black;
+                            font-weight: 600;
+                            transition: 0.4s;
+                        }
+                    }
+    
+                    li:hover {
+                        a {
+                            color: #825f00;
+                            border-bottom: 2px solid #825f00;
+                            transition: 0.4s;
+                        }
+                    }
+    
+                    li:nth-child(2) {
+                        position: relative;
+    
+                        ul.parent3 {
+                            display: none;
+                        }
+                    }
+    
+                    li:nth-child(2):hover {
+                        ul.parent3 {
+                            position: absolute;
+                            top: 32px;
+                            right: 3px;
+                            left: -40px;
+                            display: block;
+                            padding: 0;
+                            background-color: #fff;
+                            z-index: 2;
+    
+                            li {
+                                text-align: center;
+                                padding: 0.8rem 1.5rem;
+                                transition: 0.3s;
+                                padding: 0;
+    
+                                a {
+                                    border: 0;
+                                    color: black;
+                                    font-size: 0.8rem;
+                                    padding: 0.5rem 1.5rem;
+                                    display: inline-block;
+                                }
+                            }
+    
+                            li:hover {
+                                background-color: #D4B45F;
+                                transition: 0.3s;
+                            }
+    
+                            li.p3-li1 {
+                                position: relative;
+                                padding: 0;
+    
+                                ul.parent6 {
+                                    display: none;
+                                }
+    
+                                .span-1 {
+                                    position: absolute;
+                                    top: 10.1px;
+                                    left: 1.5rem;
+                                }
+                            }
+    
+                            li.p3-li1:hover {
+                                ul.parent6 {
+                                    width: 12rem;
+                                    position: absolute;
+                                    top: -124px;
+                                    left: -179px;
+                                    right: 140px;
+                                    display: block;
+                                    padding: 0;
+                                    background-color: #fff;
+                                    z-index: 2;
+    
+                                    li {
+                                        width: 12rem;
+    
+                                        a {
+                                            display: inline-block;
+                                            padding: .5rem 2rem;
+                                            font-size: 0.8rem;
+                                            text-align: right;
+                                        }
+                                    }
+                                }
+                            }
+    
+                            li.p3-li3 {
+                                padding: 0;
+    
+                                a {
+                                    display: inline-block;
+                                    padding: .5rem 2rem;
+                                    font-size: 0.8rem;
+                                    text-align: right;
+    
+                                    .span-2 {
+                                        position: absolute;
+                                        top: 0.6rem;
+                                        left: 1rem;
+                                    }
+                                }
+    
+                                ul.parent7 {
+                                    display: none;
+                                }
+                            }
+    
+                            li.p3-li3:hover {
+                                ul.parent7 {
+                                    display: block;
+                                    position: absolute;
+                                    top: 0;
+                                    left: -163px;
+                                    background-color: #fff;
+    
+                                    li.p7-li1 {
+                                        a {
+                                            display: inline-block;
+                                            padding: .5rem 2rem;
+                                            font-size: 0.8rem;
+                                            text-align: right;
+    
+                                            .span-4 {
+                                                position: absolute;
+                                                top: 10px;
+                                            }
+                                        }
+    
+                                        ul.parent9 {
+                                            display: none;
+                                        }
+                                    }
+    
+                                    li.p7-li1:hover {
+                                        ul.parent9 {
+                                            display: block;
+                                            position: absolute;
+                                            top: 0;
+                                            left: -10.4rem;
+                                            background-color: #fff;
+                                        }
+                                    }
+    
+                                    li.p7-li2 {
+                                        a {
+                                            display: inline-block;
+                                            padding: .5rem 2rem;
+                                            font-size: 0.8rem;
+                                            text-align: right;
+    
+                                            .span-5 {
+                                                position: absolute;
+                                                top: 0.5rem;
+                                            }
+                                        }
+    
+                                        ul.parent10 {
+                                            display: none;
+                                        }
+                                    }
+    
+                                    li.p7-li2:hover {
+                                        ul.parent10 {
+                                            display: block;
+                                            display: block;
+                                            position: absolute;
+                                            top: 0;
+                                            left: -10.4rem;
+                                            background-color: #fff;
+                                        }
+                                    }
+                                }
+                            }
+    
+                            li.p3-li4 {
+                                padding: 0;
+    
+                                a {
+                                    .span-3 {
+                                        position: absolute;
+                                        top: 7.3rem;
+                                        left: 4.5rem;
+                                    }
+                                }
+    
+                                ul.parent8 {
+                                    display: none;
+                                }
+                            }
+    
+                            li.p3-li4:hover {
+                                ul.parent8 {
+                                    display: block;
+                                    position: absolute;
+                                    top: 106px;
+                                    left: -106px;
+                                    background-color: #fff;
+                                }
+                            }
+                        }
+                    }
+    
+                    li:nth-child(3) {
+                        position: relative;
+    
+                        ul.parent4 {
+                            display: none;
+                        }
+                    }
+    
+                    li:nth-child(3):hover {
+                        ul.parent4 {
+                            position: absolute;
+                            top: 32px;
+                            left: -48px;
+                            display: block;
+                            padding: 0;
+                            background-color: #fff;
+                            z-index: 2;
+    
+                            li {
+                                text-align: center;
+                                padding: 0.8rem 1.5rem;
+                                transition: 0.3s;
+                                padding: 0;
+                            }
+    
+                            li:hover {
+                                background-color: #D4B45F;
+                                transition: 0.3s;
+                            }
+    
+                            li:first-child {
+                                text-align: center;
+                                padding: 0.8rem 1.5rem;
+                                transition: 0.3s;
+                                padding: 0;
+    
+                                a {
+                                    border: 0;
+                                    color: black;
+                                    font-size: 0.8rem;
+                                    padding: 0.5rem 1.5rem;
+                                    display: inline-block;
+    
+                                    .span-6 {
+                                        position: absolute;
+                                        top: 4px;
+                                        left: 11px;
+                                    }
+    
+                                    .span-7 {
+                                        position: absolute;
+                                        top: 11px;
+                                        left: 22px;
+                                    }
+                                }
+    
+                                ul.parent11 {
+                                    display: none;
+                                }
+                            }
+    
+                            li:first-child:hover {
+                                background-color: #D4B45F;
+                                transition: 0.3s;
+    
+                                ul.parent11 {
+                                    display: block;
+                                    position: absolute;
+                                    top: -142px;
+                                    left: -121px;
+                                    background-color: white;
+                                }
+                            }
+    
+                            li:nth-child(2) {
+                                text-align: center;
+                                padding: 0.8rem 1.5rem;
+                                transition: 0.3s;
+                                padding: 0;
+    
+                                a {
+                                    border: 0;
+                                    color: black;
+                                    font-size: 0.8rem;
+                                    padding: 0.5rem 1.5rem;
+                                    display: inline-block;
+                                }
+    
+                                ul.parent12 {
+                                    display: none;
+                                }
+                            }
+    
+                            li:nth-child(2):hover {
+                                background-color: #D4B45F;
+                                transition: 0.3s;
+    
+                                ul.parent12 {
+                                    display: block;
+                                    position: absolute;
+                                    top: -172px;
+                                    left: -127px;
+                                    background-color: #fff;
+                                }
+                            }
+                        }
+                    }
+    
+                    li:nth-child(5) {
+                        ul.parent5 {
+                            display: none;
+                        }
+                    }
+    
+                    li:nth-child(5):hover {
+                        position: relative;
+    
+                        ul.parent5 {
+                            display: block;
+                            position: absolute;
+                            top: 32px;
+                            left: -49px;
+                            background-color: #fff;
+    
+                            li {
+                                text-align: center;
+                                padding: 0.8rem 1.5rem;
+                                transition: 0.3s;
+                                padding: 0;
+    
+                                a {
+                                    border: 0;
+                                    color: black;
+                                    font-size: 0.8rem;
+                                    padding: 0.5rem 1.5rem;
+                                    display: inline-block;
+                                }
+                            }
+    
+                            li:hover {
+                                background-color: #D4B45F;
+                                transition: 0.3s;
+                            }
+                        }
+                    }
+                }
+            }
+    
+                .icon {
+                    span {
+                        padding: 0.5rem;
+    
+                        svg {
+                            color: #825f00;
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo {
+    img {
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
+.icon {
+    svg {
+        fill: #825f00;
+    }
+}
+
+form {
+    input[type="text"] {
+        border-radius: 50px;
+        width: 17rem;
+        height: 2rem;
+        border: 0;
+    }
+
+    span {
+        position: relative;
+        background-color: #825f00;
+        margin-right: .3rem;
+        border-radius: 50px;
+        width: 2.5rem;
+        height: 2.5rem;
+
+        svg {
+            position: absolute;
+            top: 12px;
+            left: 11px;
+            color: white;
+        }
+
+    }
+}
+
+
+footer.mobile-down {
+    padding: 0.5rem;
+    background-color: #FCF1D5;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px -6px 20px 0px #626262cd;
+    position: fixed;
+    bottom: 0;
+    z-index: 50;
+
+    a {
+        text-decoration: none;
+        font-size: 13px;
+        color: black;
+
+        svg {
+            width: 2rem;
+            height: 2rem;
+            fill: #825f00;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width : 768px) {
+    .top-header {
+        background-image: url("../images/backDrop_javaherian-1-768x432.webp");
+        opacity: 1;
+
+        ul {
+            list-style: none;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+        }
+    }
+
+    .main-header {
+        background-image: url("../images/backDrop_javaherian-1-768x432.webp");
+        opacity: 1;
+        border-radius: 0 0 20px 20px;
+        box-shadow: 0px -6px 20px 0px #626262cd;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ul.parent1 {
+            z-index: 10;
+            padding: 1rem;
+
+            li.first-child{
+                a {
+                    svg {
+                        fill: #825f00;
+                        width: 3rem;
+                        height: 3rem;
+                        padding: 0.5rem;
+                    }
+                }
+            }
+
+            li:nth-child(2) {
+                ul.parent2 {
+                    li {
+                        a {
+                            padding: 0.5rem;
+                            color: black;
+                            font-weight: 600;
+                            transition: 0.4s;
+                        }
+                    }
+
+                    li:hover {
+                        a {
+                            color: #825f00;
+                            border-bottom: 2px solid #825f00;
+                            transition: 0.4s;
+                        }
+                    }
+
+                    li:nth-child(2) {
+                        position: relative;
+
+                        ul.parent3 {
+                            display: none;
+                        }
+                    }
+
+                    li:nth-child(2):hover {
+                        ul.parent3 {
+                            position: absolute;
+                            top: 32px;
+                            right: 3px;
+                            left: -40px;
+                            display: block;
+                            padding: 0;
+                            background-color: #fff;
+                            z-index: 2;
+
+                            li {
+                                text-align: center;
+                                padding: 0.8rem 1.5rem;
+                                transition: 0.3s;
+                                padding: 0;
+
+                                a {
+                                    border: 0;
+                                    color: black;
+                                    font-size: 0.8rem;
+                                    padding: 0.5rem 1.5rem;
+                                    display: inline-block;
+                                }
+                            }
+
+                            li:hover {
+                                background-color: #D4B45F;
+                                transition: 0.3s;
+                            }
+
+                            li.p3-li1 {
+                                position: relative;
+                                padding: 0;
+
+                                ul.parent6 {
+                                    display: none;
+                                }
+
+                                .span-1 {
+                                    position: absolute;
+                                    top: 0.7rem;
+                                    left: 1.5rem;
+                                }
+                            }
+
+                            li.p3-li1:hover {
+                                ul.parent6 {
+                                    width: 12rem;
+                                    position: absolute;
+                                    top: -124px;
+                                    right: 127px;
+                                    display: block;
+                                    padding: 0;
+                                    background-color: #fff;
+                                    z-index: 2;
+
+                                    li {
+                                        width: 12rem;
+
+                                        a {
+                                            display: inline-block;
+                                            padding: .5rem 2rem;
+                                            font-size: 0.8rem;
+                                            text-align: right;
+                                        }
+                                    }
+                                }
+                            }
+
+                            li.p3-li3 {
+                                padding: 0;
+
+                                a {
+                                    display: inline-block;
+                                    padding: .5rem 2rem;
+                                    font-size: 0.8rem;
+                                    text-align: right;
+
+                                    .span-2 {
+                                        position: absolute;
+                                        top: 0.6rem;
+                                        left: 1rem;
+                                    }
+                                }
+
+                                ul.parent7 {
+                                    display: none;
+                                }
+                            }
+
+                            li.p3-li3:hover {
+                                ul.parent7 {
+                                    display: block;
+                                    position: absolute;
+                                    top: 0;
+                                    left: -163px;
+                                    background-color: #fff;
+
+                                    li.p7-li1 {
+                                        a {
+                                            display: inline-block;
+                                            padding: .5rem 2rem;
+                                            font-size: 0.8rem;
+                                            text-align: right;
+
+                                            .span-4 {
+                                                position: absolute;
+                                                top: 10px;
+                                                left: 18px;
+                                            }
+                                        }
+
+                                        ul.parent9 {
+                                            display: none;
+                                        }
+                                    }
+
+                                    li.p7-li1:hover {
+                                        ul.parent9 {
+                                            display: block;
+                                            position: absolute;
+                                            top: 0;
+                                            left: -10.9rem;
+                                            background-color: #fff;
+                                        }
+                                    }
+
+                                    li.p7-li2 {
+                                        a {
+                                            display: inline-block;
+                                            padding: .5rem 2rem;
+                                            font-size: 0.8rem;
+                                            text-align: right;
+
+                                            .span-5 {
+                                                position: absolute;
+                                                top: .5rem;
+                                                left: 18px;
+                                            }
+                                        }
+
+                                        ul.parent10 {
+                                            display: none;
+                                        }
+                                    }
+
+                                    li.p7-li2:hover {
+                                        ul.parent10 {
+                                            display: block;
+                                            display: block;
+                                            position: absolute;
+                                            top: 0;
+                                            left: -10.4rem;
+                                            background-color: #fff;
+                                        }
+                                    }
+                                }
+                            }
+
+                            li.p3-li4 {
+                                padding: 0;
+
+                                a {
+                                    .span-3 {
+                                        position: absolute;
+                                        top: 7.3rem;
+                                        left: 2.5rem;
+                                    }
+                                }
+
+                                ul.parent8 {
+                                    display: none;
+                                }
+                            }
+
+                            li.p3-li4:hover {
+                                ul.parent8 {
+                                    display: block;
+                                    position: absolute;
+                                    top: 106px;
+                                    left: -106px;
+                                    background-color: #fff;
+                                }
+                            }
+                        }
+                    }
+
+                    li:nth-child(3) {
+                        position: relative;
+
+                        ul.parent4 {
+                            display: none;
+                        }
+                    }
+
+                    li:nth-child(3):hover {
+                        ul.parent4 {
+                            position: absolute;
+                            top: 32px;
+                            left: -48px;
+                            display: block;
+                            padding: 0;
+                            background-color: #fff;
+                            z-index: 2;
+
+                            li {
+                                text-align: center;
+                                padding: 0.8rem 1.5rem;
+                                transition: 0.3s;
+                                padding: 0;
+                            }
+
+                            li:hover {
+                                background-color: #D4B45F;
+                                transition: 0.3s;
+                            }
+
+                            li:first-child {
+                                text-align: center;
+                                padding: 0.8rem 1.5rem;
+                                transition: 0.3s;
+                                padding: 0;
+
+                                a {
+                                    border: 0;
+                                    color: black;
+                                    font-size: 0.8rem;
+                                    padding: 0.5rem 1.5rem;
+                                    display: inline-block;
+
+                                    .span-6 {
+                                        position: absolute;
+                                        top: 11px;
+                                        left: 11px;
+                                    }
+
+                                    .span-7 {
+                                        position: absolute;
+                                        top: 11px;
+                                        left: 22px;
+                                    }
+                                }
+
+                                ul.parent11 {
+                                    display: none;
+                                }
+                            }
+
+                            li:first-child:hover {
+                                background-color: #D4B45F;
+                                transition: 0.3s;
+
+                                ul.parent11 {
+                                    display: block;
+                                    position: absolute;
+                                    top: -142px;
+                                    left: -121px;
+                                    background-color: white;
+                                }
+                            }
+
+                            li:nth-child(2) {
+                                text-align: center;
+                                padding: 0.8rem 1.5rem;
+                                transition: 0.3s;
+                                padding: 0;
+
+                                a {
+                                    border: 0;
+                                    color: black;
+                                    font-size: 0.8rem;
+                                    padding: 0.5rem 1.5rem;
+                                    display: inline-block;
+                                }
+
+                                ul.parent12 {
+                                    display: none;
+                                }
+                            }
+
+                            li:nth-child(2):hover {
+                                background-color: #D4B45F;
+                                transition: 0.3s;
+
+                                ul.parent12 {
+                                    display: block;
+                                    position: absolute;
+                                    top: -172px;
+                                    left: -127px;
+                                    background-color: #fff;
+                                }
+                            }
+                        }
+                    }
+
+                    li:nth-child(5) {
+                        ul.parent5 {
+                            display: none;
+                        }
+                    }
+
+                    li:nth-child(5):hover {
+                        position: relative;
+
+                        ul.parent5 {
+                            display: block;
+                            position: absolute;
+                            top: 32px;
+                            left: -49px;
+                            background-color: #fff;
+
+                            li {
+                                text-align: center;
+                                padding: 0.8rem 1.5rem;
+                                transition: 0.3s;
+                                padding: 0;
+
+                                a {
+                                    border: 0;
+                                    color: black;
+                                    font-size: 0.8rem;
+                                    padding: 0.5rem 1.5rem;
+                                    display: inline-block;
+                                }
+                            }
+
+                            li:hover {
+                                background-color: #D4B45F;
+                                transition: 0.3s;
+                            }
+                        }
+                    }
+                }
+            }
+
+            li:nth-child(3) {
+                .form-box {
+                    padding: 0 0.2rem;
+                    border-radius: 50px;
+                    background: url(../images/backDrop_javaherian-1-768x432.webp);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    box-shadow: 1px 1px 11px 3px #0000007d;
+
+                    form {
+                        input[type="text"] {
+                            border-radius: 50px;
+                            width: 8rem;
+                            height: 2rem;
+                            border: 0;
+                        }
+
+                        span {
+                            position: relative;
+                            background-color: #d4b45f;
+                            margin-right: .3rem;
+                            border-radius: 50px;
+                            width: 2.5rem;
+                            height: 2.5rem;
+
+                            svg {
+                                position: absolute;
+                                top: 12px;
+                                left: 11px;
+                            }
+
+                        }
+                    }
+                }
+
+                .icon {
+                    span {
+                        padding: 0.5rem;
+
+                        svg {
+                            color: #825f00;
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
